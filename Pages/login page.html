@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="heading">Login</div>
+
+    <form action="">
+      <div>
+        <div>
+          <span class="details">Email:</span>
+          <input type="text" placeholder="Enter your email"  
+pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" >
+        </div>
+        <div>
+          <span class="details" name= "pwd" id= "pwd">Password:</span>
+          <input type="password" placeholder="Enter your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+  title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"> 
+        </div>
+      </div>
+      <button><a href="successpage.html">Submit</a></button>
+    </form>
+
+  </div>
+
+</body>
+
+</html>

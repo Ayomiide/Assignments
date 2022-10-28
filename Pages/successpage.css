@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.success{
+    background-color: rgba(52, 196, 107, 0.87);
+    padding: 20px 600px;
+    margin: 25px;
+    display: block;
+    color: #fff;
+
+}
+.page{
+    background: #fff;
+}
+.words{
+    color: rgba(52, 196, 107, 0.87);
+    text-align: center;
+    padding: 200px;
+}
